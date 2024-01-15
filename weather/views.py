@@ -24,7 +24,7 @@ import requests
 #     return render(request, 'weather/index.html',{'form': form})
 
 def weather(request):
-    api_key = 'f31a6f95-9b8b-4fab-bcff-fd396c25612b'
+    api_key = 'Ваш token'
     url = 'https://api.weather.yandex.ru/v2/forecast'
 
     params={
